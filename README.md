@@ -1,11 +1,13 @@
-# pyrtd2660i2c
+# RTD2660_programmer.py
 Realtek RTD2660/2662 programmer for Linux through I2C bus.
-Based on: ghent360/RTD-2660-Programmer
+Based on: 			ghent360/RTD-2660-Programmer
 					juancgarcia/RTD-2660-Programmer-Python.
 					mushketer888/pyrtd2660i2c
 
-This python script uses Linux SMBus I2C bus. 
-You can program this chip for example with i2c-tiny-usb or any board with an i2c available (i.e.: Raspberry, Olimex, etc)
+
+This is a generic RTD2660 programmer.
+Just needs a standard smbus module and an i2c available on your pc.
+As an example, you can use i2c-tiny-usb or any board with an i2c available (i.e.: Raspberry, Olimex, etc)
 
 
 It can be buggy and it is quite slow! (>10 min to flash)
